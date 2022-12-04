@@ -162,7 +162,7 @@ iframe {
   align-items: center;
   padding: 15px;
   background-color: #3b4252;
-  background-image: url("images/background-image.png");
+  background-image: url("/nexus/images/background-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
