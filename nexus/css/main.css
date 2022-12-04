@@ -161,8 +161,8 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background-image: url("images/background-image.png");
   background-color: #3b4252;
+  background-image: url("images/background-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
