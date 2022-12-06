@@ -168,7 +168,7 @@ iframe {
   background-repeat: no-repeat;
 }
 .wrap-login100 {
-  width: 960px;
+  width: 1200px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -182,13 +182,13 @@ iframe {
   padding: 177px 130px 33px 95px;
 }
 .login100-pic {
-  width: 300px;
+  width: 250px;
 }
 .login100-pic img {
   max-width: 100%;
 }
 .login100-form {
-  width: 400px;
+  width: 500px;
 }
 .login100-form-title {
   font-family: Poppins-Bold;
@@ -215,7 +215,7 @@ iframe {
   width: 100%;
   background: #e6e6e6;
   height: 50px;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 0 30px 0 68px;
 }
 .focus-input100 {
@@ -239,7 +239,7 @@ iframe {
   width: 100%;
   background: #e6e6e6;
   height: 50px;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 0 30px 0 68px;
 }
 .focus-inputmail100 {
