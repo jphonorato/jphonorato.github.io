@@ -1,7 +1,155 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>holiwiwiwi</h1>
-<p>holiwi</p>
-</body>
+<html lang="es-CL">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Consejeros DuocUC" />
+    <meta name="author" content="Exia" />
+    <meta name="keyword" content="Duoc, Consejeros" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+
+    <title>Consejeros DuocUC</title>
+  </head>
+  <body>
+    <section class="w-100 p-4 d-flex justify-content-center pb-4">
+      <div style="width: 26rem">
+        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#home-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="home-tab-pane"
+              aria-selected="true"
+            >
+              Iniciar sesión
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#profile-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="profile-tab-pane"
+              aria-selected="false"
+            >
+              Solicitar acceso
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="home-tab-pane"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+            tabindex="0"
+          >
+            <form>
+              <div class="text-center mt-4 md-5">
+                <h3>Iniciar sesión</h3>
+                <p>
+                  Inicia sesión utilizando tu correo institucional. Si no tienes acceso, solicítalo en la pestaña de "Solicitar acceso".
+                </p>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="loginName" class="form-control" />
+                <label class="form-label" for="loginName"
+                  >Correo @duocuc.cl</label
+                >
+              </div>
+
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input
+                  type="password"
+                  id="loginPassword"
+                  class="form-control"
+                />
+                <label class="form-label" for="loginPassword">Contraseña</label>
+              </div>
+
+              <div class="form-check mt-4 mb-4">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="loginCheck"
+                  unchecked
+                />
+                <label class="form-check-label" for="loginCheck">
+                  Recuérdame en este dispositivo
+                </label>
+              </div>
+
+              <!-- Botón de inicio de sesión-->
+              <div class="text-center mb-3">
+                <button type="submit" class="btn btn-primary mb-4 center">
+                  Inicia sesión
+                </button>
+              </div>
+            </form>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="profile-tab-pane"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+            tabindex="0"
+          >
+            <form>
+              <div class="text-center mt-4 md-5">
+                <h3>Solicitar acceso</h3>
+                <p>
+                  Solicita acceso a la plataforma utilizando solo tu correo
+                  institucional. No se permite el uso de correos personales.
+                </p>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="loginName" class="form-control" />
+                <label class="form-label" for="loginName"
+                  >Correo @duocuc.cl</label
+                >
+              </div>
+
+              <!-- Botón de envío-->
+              <div class="text-center mb-3">
+                <button type="submit" class="btn btn-primary mb-4 center">
+                  Enviar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
